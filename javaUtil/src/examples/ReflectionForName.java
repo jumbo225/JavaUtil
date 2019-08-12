@@ -14,6 +14,7 @@ public class ReflectionForName {
 			System.out.println(c.getName());
 			examples.Simple s=(Simple)c.newInstance();
 			s.me(4);
+			System.out.println("hello");			
 		}catch(Exception e)
 		{
 			e.printStackTrace();
